@@ -8,3 +8,7 @@
 .li:hover{
     color: var(--hovertextcolor);
 }
+.search{
+    border: var(--textcolor);
+    
+}

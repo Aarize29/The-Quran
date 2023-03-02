@@ -2,9 +2,14 @@
     --bg: #2a4365;
     --textcolor: #fff;
     --hovertextcolor: #dbd8d8;
+    --body:#7a8aa0;
 }
 .light-theme{
     --hovertextcolor: #31373a;
     --bg: #fff;
     --textcolor: #0c4a6e;
+    --body:#fff;
+}
+body{
+    background-color: var(--body);
 }

@@ -24,15 +24,15 @@ const Navbar = () => {
 
 
   return (
-    <div className="navbar fixed top-0 left-0 right-0 flex justify-between mr-12 ml-12 mt-10 border-b-2 border-sky-900 border-solid  shadow-xl shadow-black-900 items-center">
+    <div className="navbar fixed top-0 left-0 right-0 flex justify-between  pr-12 pl-12 pt-10 border-b-2 border-sky-900 border-solid items-center shadow-xl shadow-black-900 items-center">
       <div className="icon ">
         <h1 className=" text-4xl font-bold     ">
             The Quran
         </h1>
       </div>
-      <div className="search li flex mb-2 items-center justify-between border-4 border-[#0c4a6e] border-solid rounded-lg">
-        <input type="text" placeholder="Search" className=" outline-none p-2 mr-4"/>
-        <FaSearch className="text-3xl   rounded-lg ml-2"/>
+      <div className="search li  flex mb-2 items-center justify-between border-4  border-solid rounded-lg">
+        <input type="text" placeholder="Search" className=" outline-none p-3 m-1"/>
+        <FaSearch className="text-3xl cursor-pointer  rounded-lg ml-2"/>
       </div>
       <div className="list">
         <ul className="flex items-center">

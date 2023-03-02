@@ -1,4 +1,4 @@
-{
+const datas ={
     "code": 200,
     "status": "OK",
     "data": {
@@ -69694,5 +69694,7 @@
     "format": "text",
     "type": "translation"
     }
-    }
-    }
+}
+} 
+    
+export default datas
