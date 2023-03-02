@@ -1,0 +1,10 @@
+.navbar{
+    background-color: var(--bg);
+    color: var(--textcolor);
+}
+.icon:hover{
+    color: var(--hovertextcolor);
+}
+.li:hover{
+    color: var(--hovertextcolor);
+}

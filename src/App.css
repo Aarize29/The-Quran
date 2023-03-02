@@ -1,0 +1,10 @@
+.dark-theme{
+    --bg: #2a4365;
+    --textcolor: #fff;
+    --hovertextcolor: #dbd8d8;
+}
+.light-theme{
+    --hovertextcolor: #31373a;
+    --bg: #fff;
+    --textcolor: #0c4a6e;
+}
