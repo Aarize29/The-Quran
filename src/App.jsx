@@ -3,6 +3,9 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Card from './components/Card'
 import datas from '../data.js'
+import About from './components/About'
+import Page from './components/Page'
+import {Route,BrowserRouter as Router,Routes} from 'react-router-dom'
 
 function App() {
     const [data, setData] = useState([])
@@ -12,31 +15,40 @@ function App() {
     console.log(data)
   return (
     <div className="App">
+      <Router>
       <div>
       <Navbar/>
       </div>
-      <section>
 
-      <div className="flex flex-wrap m-10 mr-5 justify-center">
+      <section className='cards-section'>
+      <Routes>
+        <Route path="/" element={<section >
 
-        {data.map((item) => {
-          return (
-            <Card 
-            key={item.number}
-            name={item.name}
-            englishName={item.englishName}
-            englishNameTranslation={item.englishNameTranslation}
-            numberOfAyahs={item.numberOfAyahs}
-            revelationType={item.revelationType}
-            />
-    
-          )
-        }
-        )}
+<div className="flex flex-wrap m-10 mr-5 justify-center">
 
-      </div>
+  {data.map((item) => {
+    return (
+      <Card 
+      key={item.number}
+      name={item.name}
+      englishName={item.englishName}
+      englishNameTranslation={item.englishNameTranslation}
+      numberOfAyahs={item.numberOfAyahs}
+      revelationType={item.revelationType}
+      />
+
+    )
+  }
+  )}
+
+</div>
+</section>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path='/page' element={<Page/>}/>
+      </Routes>
       </section>
-
+      
+      </Router>
     </div>
   )
 }

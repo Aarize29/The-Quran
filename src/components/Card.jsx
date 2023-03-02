@@ -1,5 +1,6 @@
+import { Link } from 'react-router-dom'
 import './Card.css'
-
+import Page from './Page'
 const Card = (props) => {
   return (
     <div  className= " card max-w-sm rounded overflow-hidden shadow-xl shadow-gray-700 m-5 cursor-pointer hover:shadow-gray-900">
@@ -13,7 +14,7 @@ const Card = (props) => {
   </div>
   <div className='text-center mb-2'>
 
-    <button className='bg-transparent  hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'>Read</button>
+    <Link to='/page'><button className='bg-transparent  hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'>Read</button></Link>
   </div>
 </div>
   )
