@@ -26,7 +26,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="navbar fixed top-0 left-0 right-0 flex justify-between  pr-12 pl-12 pt-10 border-b-2 border-sky-900 border-solid items-center shadow-xl shadow-black-900 items-center">
+    <div className="navbar flex justify-between  pr-12 pl-12 pt-10 border-b-2 border-sky-900 border-solid items-center shadow-xl shadow-black-900 items-center">
       <div className="icon ">
         <Link to='/'><h1 className=" text-4xl font-bold     ">
             The Quran

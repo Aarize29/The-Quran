@@ -20,7 +20,7 @@ function App() {
       <Navbar/>
       </div>
 
-      <section className='cards-section'>
+      <section className='cards-section '>
       <Routes>
         <Route path="/" element={<section >
 
