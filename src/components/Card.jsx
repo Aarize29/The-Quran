@@ -1,11 +1,9 @@
-import { useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import './Card.css'
-import data from '../../data.js'
 import Page from './Page'
 const Card = (props) => {
   return (
-    <div  className= " card max-w-sm rounded overflow-hidden shadow-xl shadow-gray-700 m-5 cursor-pointer hover:shadow-gray-900">
+    <div  className= " card max-w-sm h-[80%] rounded overflow-hidden shadow-xl shadow-gray-700 m-2    cursor-pointer hover:shadow-gray-900">
   <img  className= "w-full h-[65%]" src="https://c8.alamy.com/comp/2FYTYNN/the-name-of-surah-of-the-holy-quran-surah-al-fatihah-translation-chapter-the-opener-arabic-calligraphy-greeting-card-2FYTYNN.jpg" alt={props.name}/>
   <div  className= "px-6 py-4">
     <div  className= "font-bold text-xl text-right mb-2">{props.name}</div>
@@ -16,7 +14,7 @@ const Card = (props) => {
   </div>
   <div className='text-center mb-2'>
 
-    <Link to={`/page/${props.number}`}><button className='bg-transparent  hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'>Read</button></Link>
+    <Link to={`/page/${props.number}`}><button className='bg-white  hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'>Read</button></Link>
   </div>
 </div>
   )

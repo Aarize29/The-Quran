@@ -5,3 +5,9 @@
 .sidemenu{
     color: var(--textcolor);
 }
+.details{
+    overflow-y: scroll;
+    height: 100vh;
+
+
+}

@@ -4,6 +4,7 @@ const datas ={
     "data": {
     "surahs": [
     {
+    "youtube":"sjS8vkvycmw",
     "number": 1,
     "name": "سُورَةُ ٱلْفَاتِحَةِ",
     "englishName": "Al-Faatiha",
@@ -90,6 +91,7 @@ const datas ={
     ]
     },
     {
+    "youtube":"Hvo4NeUxLdc",
     "number": 2,
     "name": "سُورَةُ البَقَرَةِ",
     "englishName": "Al-Baqara",
@@ -3245,6 +3247,7 @@ const datas ={
     ]
     },
     {
+    "youtube":"JAdx6tR1WnQ",
     "number": 3,
     "name": "سُورَةُ آلِ عِمۡرَانَ",
     "englishName": "Aal-i-Imraan",
@@ -5454,6 +5457,7 @@ const datas ={
     ]
     },
     {
+    "youtube":"QER4JTHn-0E",    
     "number": 4,
     "name": "سُورَةُ النِّسَاءِ",
     "englishName": "An-Nisaa",
@@ -7399,6 +7403,7 @@ const datas ={
     ]
     },
     {
+    "youtube":"lH-siAW6qgI",
     "number": 5,
     "name": "سُورَةُ المَائـِدَةِ",
     "englishName": "Al-Maaida",
@@ -8728,6 +8733,7 @@ const datas ={
     ]
     },
     {
+    "youtube":"Hqt9lIFndko",
     "number": 6,
     "name": "سُورَةُ الأَنۡعَامِ",
     "englishName": "Al-An'aam",
@@ -10552,6 +10558,7 @@ const datas ={
     ]
     },
     {
+    "youtube":"3Wmf9YH3jE0",
     "number": 7,
     "name": "سُورَةُ الأَعۡرَافِ",
     "englishName": "Al-A'raaf",
@@ -12831,6 +12838,7 @@ const datas ={
     ]
     },
     {
+    "youtube":"NuhowPIwQnY",
     "number": 8,
     "name": "سُورَةُ الأَنفَالِ",
     "englishName": "Al-Anfaal",
@@ -13665,6 +13673,7 @@ const datas ={
     ]
     },
     {
+    "youtube":"WEkenhA5mPU",
     "number": 9,
     "name": "سُورَةُ التَّوۡبَةِ",
     "englishName": "At-Tawba",
@@ -15093,6 +15102,7 @@ const datas ={
     ]
     },
     {
+    "youtube":"Lu-n16Dvn_U",
     "number": 10,
     "name": "سُورَةُ يُونُسَ",
     "englishName": "Yunus",
@@ -16301,6 +16311,7 @@ const datas ={
     ]
     },
     {
+    "youtube":"35TzhLl_bxA",
     "number": 11,
     "name": "سُورَةُ هُودٍ",
     "englishName": "Hud",
@@ -17663,6 +17674,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"2gYbC7V99bE",
     "number": 12,
     "name": "سُورَةُ يُوسُفَ",
     "englishName": "Yusuf",
@@ -18893,6 +18905,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"zaCtU6ICQwM",
     "number": 13,
     "name": "سُورَةُ الرَّعۡدِ",
     "englishName": "Ar-Ra'd",
@@ -19379,6 +19392,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"r1rttkN95fM",
     "number": 14,
     "name": "سُورَةُ إِبۡرَاهِيمَ",
     "englishName": "Ibrahim",
@@ -19960,6 +19974,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"5hfZfYtNyyc",
     "number": 15,
     "name": "سُورَةُ الحِجۡرِ",
     "englishName": "Al-Hijr",
@@ -21058,6 +21073,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"E2QfGcVJgVc",
     "number": 16,
     "name": "سُورَةُ النَّحۡلِ",
     "englishName": "An-Nahl",
@@ -22479,6 +22495,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"AnnupMVYFW4",
     "number": 17,
     "name": "سُورَةُ الإِسۡرَاءِ",
     "englishName": "Al-Israa",
@@ -23713,6 +23730,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"OSAIZ5mRA9k",
     "number": 18,
     "name": "سُورَةُ الكَهۡفِ",
     "englishName": "Al-Kahf",
@@ -24932,6 +24950,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"tbOo7KvAV-g",
     "number": 19,
     "name": "سُورَةُ مَرۡيَمَ",
     "englishName": "Maryam",
@@ -26023,6 +26042,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"lgxhTUXS-cE",
     "number": 20,
     "name": "سُورَةُ طه",
     "englishName": "Taa-Haa",
@@ -27517,6 +27537,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"0VbXvzUB4aI",
     "number": 21,
     "name": "سُورَةُ الأَنبِيَاءِ",
     "englishName": "Al-Anbiyaa",
@@ -28758,6 +28779,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"fEQ4yD2SqqE",
     "number": 22,
     "name": "سُورَةُ الحَجِّ",
     "englishName": "Al-Hajj",
@@ -29633,6 +29655,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"FlmvtkakSfg",
     "number": 23,
     "name": "سُورَةُ المُؤۡمِنُونَ",
     "englishName": "Al-Muminoon",
@@ -30940,6 +30963,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"TVC8A720lgc",
     "number": 24,
     "name": "سُورَةُ النُّورِ",
     "englishName": "An-Noor",
@@ -31653,6 +31677,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"44bpk_QSJpo",
     "number": 25,
     "name": "سُورَةُ الفُرۡقَانِ",
     "englishName": "Al-Furqaan",
@@ -32513,6 +32538,7 @@ const datas ={
     ]
     },
     {
+    "youtube":"LYnfRh6SlgQ",
     "number": 26,
     "name": "سُورَةُ الشُّعَرَاءِ",
     "englishName": "Ash-Shu'araa",
@@ -35019,6 +35045,7 @@ const datas ={
     ]
     },
     {
+    "youtube":"3Q6qY-GOzFo",
     "number": 27,
     "name": "سُورَةُ النَّمۡلِ",
     "englishName": "An-Naml",
@@ -36055,6 +36082,7 @@ const datas ={
     ]
     },
     {
+    "youtube":"qgeHsDYqjpM",
     "number": 28,
     "name": "سُورَةُ القَصَصِ",
     "englishName": "Al-Qasas",
@@ -37032,6 +37060,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"AAMqxrFhP6Y",
     "number": 29,
     "name": "سُورَةُ العَنكَبُوتِ",
     "englishName": "Al-Ankaboot",
@@ -37800,6 +37829,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"Kb0GuzuTxys",
     "number": 30,
     "name": "سُورَةُ الرُّومِ",
     "englishName": "Ar-Room",
@@ -38469,6 +38499,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"BXQNWTH5b6g",
     "number": 31,
     "name": "سُورَةُ لُقۡمَانَ",
     "englishName": "Luqman",
@@ -38852,6 +38883,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"fyTTBm40EsI",
     "number": 32,
     "name": "سُورَةُ السَّجۡدَةِ",
     "englishName": "As-Sajda",
@@ -39195,6 +39227,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"fO6-swedJ1Y",
     "number": 33,
     "name": "سُورَةُ الأَحۡزَابِ",
     "englishName": "Al-Ahzaab",
@@ -40007,6 +40040,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"oVP46R8tRnE",
     "number": 34,
     "name": "سُورَةُ سَبَإٍ",
     "englishName": "Saba",
@@ -40610,6 +40644,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"MA9vsGaH3U0",
     "number": 35,
     "name": "سُورَةُ فَاطِرٍ",
     "englishName": "Faatir",
@@ -41114,6 +41149,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"tOafZpE1KvE",
     "number": 36,
     "name": "سُورَةُ يسٓ",
     "englishName": "Yaseen",
@@ -42036,6 +42072,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"MQbWkv8E4NQ",
     "number": 37,
     "name": "سُورَةُ الصَّافَّاتِ",
     "englishName": "As-Saaffaat",
@@ -44047,6 +44084,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"583u5D3p4hA",
     "number": 38,
     "name": "سُورَةُ صٓ",
     "englishName": "Saad",
@@ -45028,6 +45066,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"aoJzNFZD_fA",
     "number": 39,
     "name": "سُورَةُ الزُّمَرِ",
     "englishName": "Az-Zumar",
@@ -45862,6 +45901,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"atfTeTESraU",
     "number": 40,
     "name": "سُورَةُ غَافِرٍ",
     "englishName": "Ghafir",
@@ -46806,6 +46846,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"8OKv3US9MuQ",
     "number": 41,
     "name": "سُورَةُ فُصِّلَتۡ",
     "englishName": "Fussilat",
@@ -47413,6 +47454,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"3m-6L-WLcE0",
     "number": 42,
     "name": "سُورَةُ الشُّورَىٰ",
     "englishName": "Ash-Shura",
@@ -48005,6 +48047,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"Y2Tx95Ub974",
     "number": 43,
     "name": "سُورَةُ الزُّخۡرُفِ",
     "englishName": "Az-Zukhruf",
@@ -48993,6 +49036,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"xa-XjV0kfQI",
     "number": 44,
     "name": "سُورَةُ الدُّخَانِ",
     "englishName": "Ad-Dukhaan",
@@ -49651,6 +49695,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"D7JHBkGMCl8",
     "number": 45,
     "name": "سُورَةُ الجَاثِيَةِ",
     "englishName": "Al-Jaathiya",
@@ -50067,6 +50112,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"xm-n_LO-slY",
     "number": 46,
     "name": "سُورَةُ الأَحۡقَافِ",
     "englishName": "Al-Ahqaf",
@@ -50461,6 +50507,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"rYeTZbOTNyg",
     "number": 47,
     "name": "سُورَةُ مُحَمَّدٍ",
     "englishName": "Muhammad",
@@ -50888,6 +50935,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"yY-hD9nj9-k",
     "number": 48,
     "name": "سُورَةُ الفَتۡحِ",
     "englishName": "Al-Fath",
@@ -51216,6 +51264,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"RFow2bQ51-8",
     "number": 49,
     "name": "سُورَةُ الحُجُرَاتِ",
     "englishName": "Al-Hujuraat",
@@ -51423,6 +51472,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"TWXxn2gJMw4",
     "number": 50,
     "name": "سُورَةُ قٓ",
     "englishName": "Qaaf",
@@ -51927,6 +51977,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"4gr_pUrJ8SA",
     "number": 51,
     "name": "سُورَةُ الذَّارِيَاتِ",
     "englishName": "Adh-Dhaariyat",
@@ -52596,6 +52647,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"z9yzYp3kMuo",
     "number": 52,
     "name": "سُورَةُ الطُّورِ",
     "englishName": "At-Tur",
@@ -53144,6 +53196,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"-BOPRK-5Tag",
     "number": 53,
     "name": "سُورَةُ النَّجۡمِ",
     "englishName": "An-Najm",
@@ -53839,6 +53892,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"o4snn9Kxvr8",
     "number": 54,
     "name": "سُورَةُ القَمَرِ",
     "englishName": "Al-Qamar",
@@ -54453,6 +54507,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"0OklPDe2AVQ",
     "number": 55,
     "name": "سُورَةُ الرَّحۡمَٰن",
     "englishName": "Ar-Rahmaan",
@@ -55320,6 +55375,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"V7a8GOaE-fU",
     "number": 56,
     "name": "سُورَةُ الوَاقِعَةِ",
     "englishName": "Al-Waaqia",
@@ -56385,6 +56441,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"08kKYHMf1Qw",
     "number": 57,
     "name": "سُورَةُ الحَدِيدِ",
     "englishName": "Al-Hadid",
@@ -56713,6 +56770,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"fZc5B-T55zU",
     "number": 58,
     "name": "سُورَةُ المُجَادلَةِ",
     "englishName": "Al-Mujaadila",
@@ -56964,6 +57022,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"Ev2F3QmAM_8",
     "number": 59,
     "name": "سُورَةُ الحَشۡرِ",
     "englishName": "Al-Hashr",
@@ -57237,6 +57296,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"Sb-eTTMZogQ",
     "number": 60,
     "name": "سُورَةُ المُمۡتَحنَةِ",
     "englishName": "Al-Mumtahana",
@@ -57389,6 +57449,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"jx8kWsX2Wj4",
     "number": 61,
     "name": "سُورَةُ الصَّفِّ",
     "englishName": "As-Saff",
@@ -57552,6 +57613,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"85OykieQ92U",
     "number": 62,
     "name": "سُورَةُ الجُمُعَةِ",
     "englishName": "Al-Jumu'a",
@@ -57682,6 +57744,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"omtp5navQdI",
     "number": 63,
     "name": "سُورَةُ المُنَافِقُونَ",
     "englishName": "Al-Munaafiqoon",
@@ -57812,6 +57875,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"3qfknrCiU20",
     "number": 64,
     "name": "سُورَةُ التَّغَابُنِ",
     "englishName": "At-Taghaabun",
@@ -58019,6 +58083,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"pwhcl4kD9FY",
     "number": 65,
     "name": "سُورَةُ الطَّلَاقِ",
     "englishName": "At-Talaaq",
@@ -58160,6 +58225,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"LnAVrcrbk2A",
     "number": 66,
     "name": "سُورَةُ التَّحۡرِيمِ",
     "englishName": "At-Tahrim",
@@ -58301,6 +58367,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"DfOAOwGxH1c",
     "number": 67,
     "name": "سُورَةُ المُلۡكِ",
     "englishName": "Al-Mulk",
@@ -58640,6 +58707,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"TEpKHsVWkbI",
     "number": 68,
     "name": "سُورَةُ القَلَمِ",
     "englishName": "Al-Qalam",
@@ -59221,6 +59289,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"r8XvAGjbjKw",
     "number": 69,
     "name": "سُورَةُ الحَاقَّةِ",
     "englishName": "Al-Haaqqa",
@@ -59802,6 +59871,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"d4-fP_dekW8",
     "number": 70,
     "name": "سُورَةُ المَعَارِجِ",
     "englishName": "Al-Ma'aarij",
@@ -60295,6 +60365,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"Ef3oDvtYMz8",
     "number": 71,
     "name": "سُورَةُ نُوحٍ",
     "englishName": "Nooh",
@@ -60612,6 +60683,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"x8JaJTGd4TQ",
     "number": 72,
     "name": "سُورَةُ الجِنِّ",
     "englishName": "Al-Jinn",
@@ -60929,6 +61001,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"44jkgZ-zobY",
     "number": 73,
     "name": "سُورَةُ المُزَّمِّلِ",
     "englishName": "Al-Muzzammil",
@@ -61158,6 +61231,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"wmXTkzl-RmI",
     "number": 74,
     "name": "سُورَةُ المُدَّثِّرِ",
     "englishName": "Al-Muddaththir",
@@ -61783,6 +61857,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"RC7VYGI4tCI",
     "number": 75,
     "name": "سُورَةُ القِيَامَةِ",
     "englishName": "Al-Qiyaama",
@@ -62232,6 +62307,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"KZZjLT-GudI",
     "number": 76,
     "name": "سُورَةُ الإِنسَانِ",
     "englishName": "Al-Insaan",
@@ -62582,6 +62658,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"KCCKfnYSM7Q",
     "number": 77,
     "name": "سُورَةُ المُرۡسَلَاتِ",
     "englishName": "Al-Mursalaat",
@@ -63141,6 +63218,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"WqrHnDz8MOY",
     "number": 78,
     "name": "سُورَةُ النَّبَإِ",
     "englishName": "An-Naba",
@@ -63590,6 +63668,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"0O25KB1lXLA",
     "number": 79,
     "name": "سُورَةُ النَّازِعَاتِ",
     "englishName": "An-Naazi'aat",
@@ -64105,6 +64184,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"KBYGHr4IsQY",
     "number": 80,
     "name": "سُورَةُ عَبَسَ",
     "englishName": "Abasa",
@@ -64576,6 +64656,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"XNn_elVu4pI",
     "number": 81,
     "name": "سُورَةُ التَّكۡوِيرِ",
     "englishName": "At-Takwir",
@@ -64904,6 +64985,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"at5VTAwB5XI",
     "number": 82,
     "name": "سُورَةُ الانفِطَارِ",
     "englishName": "Al-Infitaar",
@@ -65122,6 +65204,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"OWbbAoRsj_k",
     "number": 83,
     "name": "سُورَةُ المُطَفِّفِينَ",
     "englishName": "Al-Mutaffifin",
@@ -65527,6 +65610,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"sCM166IoT3I",
     "number": 84,
     "name": "سُورَةُ الانشِقَاقِ",
     "englishName": "Al-Inshiqaaq",
@@ -65815,6 +65899,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"RPgYKfyzhKI",
     "number": 85,
     "name": "سُورَةُ البُرُوجِ",
     "englishName": "Al-Burooj",
@@ -66066,6 +66151,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"kqlODaDH4Zc",
     "number": 86,
     "name": "سُورَةُ الطَّارِقِ",
     "englishName": "At-Taariq",
@@ -66262,6 +66348,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"mHg6kB2mAww",
     "number": 87,
     "name": "سُورَةُ الأَعۡلَىٰ",
     "englishName": "Al-A'laa",
@@ -66480,6 +66567,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"QU5tIoKjscg",
     "number": 88,
     "name": "سُورَةُ الغَاشِيَةِ",
     "englishName": "Al-Ghaashiya",
@@ -66775,6 +66863,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"sf7-1vXMxD4",
     "number": 89,
     "name": "سُورَةُ الفَجۡرِ",
     "englishName": "Al-Fajr",
@@ -67114,6 +67203,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"-GtTajxae8g",
     "number": 90,
     "name": "سُورَةُ البَلَدِ",
     "englishName": "Al-Balad",
@@ -67343,6 +67433,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"PfG3uMOUtLo",
     "number": 91,
     "name": "سُورَةُ الشَّمۡسِ",
     "englishName": "Ash-Shams",
@@ -67517,6 +67608,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"iOS16WRLu4M",
     "number": 92,
     "name": "سُورَةُ اللَّيۡلِ",
     "englishName": "Al-Lail",
@@ -67757,6 +67849,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"AM_VULpFcNo",
     "number": 93,
     "name": "سُورَةُ الضُّحَىٰ",
     "englishName": "Ad-Dhuhaa",
@@ -67887,6 +67980,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"zpPaOREAkqw",
     "number": 94,
     "name": "سُورَةُ الشَّرۡحِ",
     "englishName": "Ash-Sharh",
@@ -67984,6 +68078,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"1eji_5tZb-c",
     "number": 95,
     "name": "سُورَةُ التِّينِ",
     "englishName": "At-Tin",
@@ -68081,6 +68176,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"rqK41yKCKiM",
     "number": 96,
     "name": "سُورَةُ العَلَقِ",
     "englishName": "Al-Alaq",
@@ -68303,6 +68399,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"2J8TN346ff8",
     "number": 97,
     "name": "سُورَةُ القَدۡرِ",
     "englishName": "Al-Qadr",
@@ -68367,6 +68464,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"vb9ChJaf7cM",
     "number": 98,
     "name": "سُورَةُ البَيِّنَةِ",
     "englishName": "Al-Bayyina",
@@ -68464,6 +68562,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"XCUIVzfW49c",
     "number": 99,
     "name": "سُورَةُ الزَّلۡزَلَةِ",
     "englishName": "Az-Zalzala",
@@ -68561,6 +68660,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"jUf3hhYPpPI",
     "number": 100,
     "name": "سُورَةُ العَادِيَاتِ",
     "englishName": "Al-Aadiyaat",
@@ -68691,6 +68791,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"OkHl5-fFE00",
     "number": 101,
     "name": "سُورَةُ القَارِعَةِ",
     "englishName": "Al-Qaari'a",
@@ -68821,6 +68922,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"N-CvkMS5YyU",
     "number": 102,
     "name": "سُورَةُ التَّكَاثُرِ",
     "englishName": "At-Takaathur",
@@ -68918,6 +69020,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"x_XZl1MYAoI",
     "number": 103,
     "name": "سُورَةُ العَصۡرِ",
     "englishName": "Al-Asr",
@@ -68960,6 +69063,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"JB7zfhJ-TLU",
     "number": 104,
     "name": "سُورَةُ الهُمَزَةِ",
     "englishName": "Al-Humaza",
@@ -69068,6 +69172,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"U6mvs4ifVzY",
     "number": 105,
     "name": "سُورَةُ الفِيلِ",
     "englishName": "Al-Fil",
@@ -69132,6 +69237,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"6nHtvH0GXKw",
     "number": 106,
     "name": "سُورَةُ قُرَيۡشٍ",
     "englishName": "Quraish",
@@ -69185,6 +69291,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"Ot-1RsOwOgU",
     "number": 107,
     "name": "سُورَةُ المَاعُونِ",
     "englishName": "Al-Maa'un",
@@ -69271,6 +69378,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"bkr3QoewGKw",
     "number": 108,
     "name": "سُورَةُ الكَوۡثَرِ",
     "englishName": "Al-Kawthar",
@@ -69313,6 +69421,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"b9YEdjef2oA",
     "number": 109,
     "name": "سُورَةُ الكَافِرُونَ",
     "englishName": "Al-Kaafiroon",
@@ -69388,6 +69497,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"pFuWbddyiuo",
     "number": 110,
     "name": "سُورَةُ النَّصۡرِ",
     "englishName": "An-Nasr",
@@ -69430,6 +69540,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"v1FoyCFzzC8",
     "number": 111,
     "name": "سُورَةُ المَسَدِ",
     "englishName": "Al-Masad",
@@ -69494,6 +69605,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"Z2D0iJOnNGQ",
     "number": 112,
     "name": "سُورَةُ الإِخۡلَاصِ",
     "englishName": "Al-Ikhlaas",
@@ -69547,6 +69659,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"ZWJ7pJ8rMeY",
     "number": 113,
     "name": "سُورَةُ الفَلَقِ",
     "englishName": "Al-Falaq",
@@ -69611,6 +69724,7 @@ const datas ={
     ]
     },
     {
+        "youtube":"0hil1RMqWOY",
     "number": 114,
     "name": "سُورَةُ النَّاسِ",
     "englishName": "An-Naas",
@@ -69685,7 +69799,7 @@ const datas ={
     }
     ]
     }
-    ],
+    ],  
     "edition": {
     "identifier": "en.asad",
     "language": "en",
