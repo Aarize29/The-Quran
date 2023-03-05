@@ -32,10 +32,7 @@ const Navbar = () => {
             The Quran
         </h1></Link>
       </div>
-      <div className="search li  flex mb-2 items-center justify-between border-4  border-solid rounded-lg">
-        <input type="text" placeholder="Search" className=" outline-none p-3 m-1"/>
-        <FaSearch className="text-3xl cursor-pointer  rounded-lg ml-2" onChange={event=>setSearch(event.target.value)}/>
-      </div>
+      
       <div className="list">
         <ul className="flex items-center">
             <li className=' flex justify-between'>

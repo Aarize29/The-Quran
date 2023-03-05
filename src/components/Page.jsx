@@ -5,6 +5,7 @@ import { FaSearch } from 'react-icons/fa'
 import './Page.css'
 let img= '../assets/img.png'
 const Page = () => {
+    const [searchTerm, setSearchTerm] = useState('')
     const id= useParams()
      const details= data.data.surahs.filter((item)=> item.number == id.id)
      const youtube= details.map((item)=> item.youtube)
@@ -20,14 +21,20 @@ const Page = () => {
     <div className="flex justify-between" >
       <div className="sidemenu flex flex-col  cursor-pointer text-2xl   w-3/12 overflow-y-scroll h-screen text-center   ">
       <div className="search1 li  flex w-full items-center mt-5 justify-between border-black border-4 border-solid rounded-lg">
-        <input type="text" placeholder="Search" className=" outline-none w-full p-3 m-1 "/>
+        <input type="text" placeholder="Search" className=" outline-none w-full p-3 m-1 " onChange={event=>{setSearchTerm(event.target.value)}}/>
         <FaSearch className="text-3xl  cursor-pointer  rounded-lg ml-2"/>
       </div>
         
-      {data.data.surahs.map((item) => {
+      {data.data.surahs.filter((val)=>{
+        if(searchTerm == ""){
+          return val
+        }else if(val.englishName.toLowerCase().includes(searchTerm.toLowerCase())){
+          return val
+        }
+      }).map((item,key) => {
         return (
           <Link to = {`/page/${item.number}`} key={item.number}>
-          <div className="li flex  justify-start items-center h-10 mt-10   text-2xl hover:text-yellow-500 font-bold">
+          <div className="li flex  justify-start items-center h-10 mt-10   text-2xl hover:text-yellow-500 font-bold" key={key}>
             <div className="text-2xl p-3">{item.number}</div>
             <div className="text-2xl p-3 ">{item.englishName}</div>
           </div>
