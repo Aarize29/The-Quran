@@ -45,7 +45,7 @@ const Page = () => {
 
       </div>
 
-      <div className="sidemenu details flex flex-col text-2xl w-full ">
+      <div className="sidemenu details mt-5 flex flex-col text-2xl w-full ">
           <div className='text-6xl h-10 flex  justify-center mb-20'>{details.map((item)=> item.englishName)}- {details.map((item)=> item.englishNameTranslation)}</div>
           <h1 className='text-6xl h-10 flex  justify-center mb-20'>'بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</h1>
           <h1 className='text-3xl h-10 flex  justify-center mb-10'>With The Name Of Allah, The Most Gracious And The Most Merciful</h1>

@@ -33,6 +33,7 @@ const Navbar = () => {
         </h1></Link>
       </div>
       
+
       <div className="list">
         <ul className="flex items-center">
             <li className=' flex justify-between'>
