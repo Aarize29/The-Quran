@@ -1,5 +1,7 @@
-import { Link } from 'react-router-dom'
+import { useState } from 'react'
+import { Link, useParams } from 'react-router-dom'
 import './Card.css'
+import data from '../../data.js'
 import Page from './Page'
 const Card = (props) => {
   return (
@@ -14,7 +16,7 @@ const Card = (props) => {
   </div>
   <div className='text-center mb-2'>
 
-    <Link to='/page'><button className='bg-transparent  hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'>Read</button></Link>
+    <Link to={`/page/${props.number}`}><button className='bg-transparent  hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'>Read</button></Link>
   </div>
 </div>
   )

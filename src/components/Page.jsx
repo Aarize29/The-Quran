@@ -1,41 +1,48 @@
+import { useState } from 'react'
+import {Link, useParams } from 'react-router-dom'
+import data from '../../data.js'
 import { FaSearch } from 'react-icons/fa'
 import './Page.css'
 let img= '../assets/img.png'
 const Page = () => {
+    const id= useParams()
+     const details= data.data.surahs.filter((item)=> item.number == id.id)
+     
+    const ayahs= details.map((item)=> item.ayahs)
+    const number= ayahs.map((item)=> item.map((item)=> item.number))
+
+    const str= ayahs.map((item)=> item.map((item)=> item.text)).join(' ')
+    console.log(str)
+
+
+    
   return (
     <div className="flex justify-between" >
       <div className="sidemenu flex flex-col  cursor-pointer text-2xl   w-3/12 overflow-y-scroll h-screen text-center   ">
       <div className="search1 li  flex w-full items-center mt-5 justify-between border-black border-4 border-solid rounded-lg">
         <input type="text" placeholder="Search" className=" outline-none w-full p-3 m-1 "/>
-        <FaSearch className="text-3xl cursor-pointer  rounded-lg ml-2"/>
+        <FaSearch className="text-3xl  cursor-pointer  rounded-lg ml-2"/>
       </div>
-        <div className="flex justify-center items-center h-10 mt-10   text-2xl hover:text-red-900  font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl  hover:text-red-900 font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl  hover:text-red-900 font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl hover:text-red-900  font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl  hover:text-red-900 font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl hover:text-red-900  font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl hover:text-red-900  font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl hover:text-red-900  font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl hover:text-red-900  font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl hover:text-red-900  font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl hover:text-red-900  font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl hover:text-red-900  font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl hover:text-red-900  font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl hover:text-red-900  font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl hover:text-red-900  font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl hover:text-red-900  font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl hover:text-red-900  font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl hover:text-red-900  font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl hover:text-red-900  font-bold">Al-Quran</div>
-        <div className="flex justify-center items-center h-10   text-2xl hover:text-red-900  font-bold">Al-Quran</div>
+        
+      {data.data.surahs.map((item) => {
+        return (
+          <Link to = {`/page/${item.number}`} key={item.number}>
+          <div className="li flex justify-center items-center h-10 mt-10   text-2xl hover:text-red-900  font-bold">
+            <div className="text-2xl p-3 m-1">{item.englishName}</div>
+          </div>
+          </Link>
+        )
+      }
+      )}
+
       </div>
 
-      <div className="sidemenu flex flex-col text-2xl m-10 overflow-y-scroll h-3/4 w-full ">
-        
+      <div className="sidemenu flex flex-col text-2xl h-10 mt-10 w-full ">
+          <div className='text-6xl h-10 flex  justify-center mb-20'>{details.map((item)=> item.englishName)}</div>
           <h1 className='text-6xl h-10 flex  justify-center mb-20'>'بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</h1>
-          <p></p>
-         <p className='text-center  '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas sunt corrupti atque quaerat eius eaque laudantium laborum numquam nemo nam commodi ex earum perferendis molestias iusto officia facilis unde pariatur, temporibus asperiores saepe delectus odit suscipit ab. Repellendus voluptas vel cupiditate praesentium, voluptates deserunt soluta repellat eveniet sunt beatae, vitae, pariatur earum ex laboriosam magnam? Perferendis distinctio laudantium dolorem impedit mollitia! Odio, iure dolorum animi soluta est officia quasi quia maiores modi veritatis, asperiores eum quae! Similique culpa nam, quia perspiciatis, aliquid, dolorum quasi velit molestias a quisquam unde autem necessitatibus incidunt ab possimus deleniti corrupti eaque quas. Pariatur veritatis sunt, necessitatibus aperiam laborio Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque autem velit ratione animi debitis saepe atque placeat modi rerum vel, illum adipisci! Labore dolores velit delectus corporis maiores vel quod illo quasi commodi harum nostrum cum incidunt numquam, inventore consectetur voluptatem laborum, voluptas omnis consequatur aliquam doloremque officia possimus. Natus eaque illo itaque? Esse fugiat impedit at, error, asperiores illo aut quo eveniet laboriosam porro modi, deleniti adipisci alias voluptate excepturi voluptas id eum est. Dolorem at rerum cupiditate illo itaque veniam obcaecati quaerat alias optio voluptate a earum ipsa nam aut, culpa vel nesciunt! Consequuntur quae pariatur incidunt delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae eveniet ullam, molestias quae assumenda voluptas perspiciatis sit sapiente iure? Rerum commodi vel tempora sint nostrum, accusantium praesentium pariatur, omnis corporis ab architecto iste voluptatibus eos minima quis at natus ipsa, rem deserunt maiores fugiat? Debitis corporis cumque aut harum dolorum quo dignissimos fugit ex saepe distinctio excepturi autem ullam veritatis, pariatur voluptates quasi ut eius animi quaerat ipsa totam eos! Accusantium eligendi et asperiores nulla. Quisquam dolor hic impedit perspiciatis officia quae ea itaque eius facere ratione sequi, incidunt, magni debitis, molestias blanditiis? Similique beatae voluptate, expedita dolores sit iure blanditiis, corporis tenetur culpa quidem itaque ad aliquam. Dolore voluptate earum explicabo reiciendis eius ducimus neque autem enim ullam nostrum, iste, repellat rerum labore maxime vel consectetur incidunt libero. Rem unde id fugit, animi adipisci cumque alias soluta cum quae, consequuntur fuga numquam repellat aut eos optio non debitis consectetur, magnam reiciendis sint doloribus voluptatem eum nostrum. At minima corporis laudantium recusandae distinctio iste, non sit ut possimus aperiam odio magni iure obcaecati aliquid repudiandae optio facere quia dolores temporibus assumenda atque error hic! Laborum, ea? Eius quam facilis similique repellendus odio minima perspiciatis, culpa esse cumque laborum deserunt. Asperiores at obcaecati numquam suscipit dolor nulla perspiciatis minima distinctio consectetur? Deleniti velit cum unde saepe rem. Libero ratione veritatis nulla ipsam itaque, consequatur vel numquam enim esse est, suscipit dolorum asperiores nam ad eveniet saepe aspernatur modi placeat maiores dolor sit. Consectetur, non dolorum cum eligendi ducimus magnam nesciunt est nihil quibusdam dicta vero repellat sequi aperiam sed fuga voluptatum doloremque consequuntur error numquam sunt facere aliquam omnis, accusamus aspernatur. Iure cumque id dolorem magnam explicabo dignissimos aperiam facere consequuntur excepturi culpa deserunt quidem, molestias architecto esse mollitia? Laboriosam est ex odit, delectus, voluptatibus tenetur veritatis sed accusamus fugiat eaque repellat praesentium, iusto distinctio rem sint ut dignissimos perferendis repellendus necessitatibus reiciendis harum non placeat amet qui. Voluptate sint illum numquam mollitia pariatur minima ad tempore quam enim quidem, reiciendis eius nesciunt ipsa voluptatibus reprehenderit. Temporibus unde, culpa eaque illum fugit voluptatibus tenetur animi molestiae obcaecati repudiandae voluptates explicabo voluptatum quaerat praesentium. Quos distinctio corrupti saepe provident possimus illum, iure, in eius placeat, error repellendus. Suscipit id minima mollitia reprehenderit ea quam obcaecati voluptatum voluptas, sapiente reiciendis veritatis incidunt quos soluta illum nesciunt delectus deserunt? Ipsa fuga voluptatum dolore ad consectetur fugit voluptatibus officia minima magnam suscipit, ipsam dolor vel, nobis eveniet? Possimus dolore recusandae suscipit earum commodi aperiam exercitationem doloremque dolores voluptates labore sapiente excepturi placeat, quasi reprehenderit. Beatae enim itaque atque, harum fuga, magnam blanditiis assumenda illo quis possimus nemo aliquid voluptatum, laudantium cum? Ea, earum temporibus. Laboriosam quibusdam odit optio perspiciatis soluta, id et dolorem deleniti repellat sit magnam magni nam saepe est quis eligendi atque quisquam dolor voluptatum molestias labore. Corporis ea ratione fugiat est, ipsam mollitia tenetur maiores dicta a. Delectus itaque suscipit facilis ullam! Laudantium temporibus ea dignissimos dolore quos, quibusdam sunt expedita. Saepe molestias ratione quidem esse quam quas animi nesciunt non. Neque omnis hic nostrum nulla quam, alias consequuntur, nesciunt esse obcaecati veniam qui. Asperiores quisquam iure minima temporibus eaque animi aliquam quo nemo quam similique. Ipsa, voluptates! Optio, eius assumenda reprehenderit unde, vel nobis adipisci perspiciatis quae hic esse voluptatem saepe atque aliquid nostrum officia! Totam, laborum, eveniet dignissimos repellat facere aliquam laboriosam, in officiis corporis inventore temporibus quia error tempora sapiente laudantium voluptatem natus saepe explicabo! Nam facilis sequi porro doloremque consequatur, nihil nemo temporibus fugiat magnam autem excepturi reiciendis repellat, odio rem adipisci, ipsam voluptate. Quibusdam voluptas molestiae sapiente modi deserunt neque omnis fuga saepe ipsa nam reiciendis similique itaque harum ut praesentium, autem quod. Consequatur placeat recusandae fugit labore commodi aperiam quam impedit, quia temporibus, repellendus libero. Reprehenderit odit maxime architecto delectus praesentium nesciunt harum officia facilis! Sit dolore deleniti quas, cum vero exercitationem dicta consequatur aut dignissimos quibusdam, voluptas unde quisquam eligendi eius? Tempora, magnam reprehenderit. Vitae illum itaque voluptates nemo delectus magnam odit pariatur placeat id aliquam numquam aperiam, illo eos sit, optio velit recusandae. Fugit maxime reprehenderit ea recusandae, quas quis, saepe incidunt qui sunt tempora dolorum. Nihil eveniet dolorum alias hic aperiam accusamus possimus quod dolor, molestiae quam distinctio ducimus. Ut nemo nihil obcaecati doloribus natus doloremque laboriosam fuga rem? Modi sunt delectus tempora asperiores excepturi tempore qui aspernatur quis. Eveniet in consectetur accusamus libero nisi quo. Necessitatibus repellat excepturi ipsam, fugiat suscipit ducimus nulla voluptatum natus nemo aliquid deleniti numquam provident amet nihil eaque facere hic quod blanditiis laborum incidunt! Veritatis quidem praesentium perspiciatis totam suscipit natus nobis ab velit, nesciunt inventore! Aut quas at veniam voluptates dolore impedit laboriosam sit animi commodi autem provident adipisci quia dolorem esse dicta, vel doloremque, vero, modi nisi sed. Est quasi doloribus veritatis aliquam? Maiores pariatur, deleniti unde laudantium voluptas rerum harum ab repudiandae quaerat. Sapiente, maiores! Nemo odio a distinctio ipsam excepturi tempora debitis accusamus explicabo adipisci voluptas. Dolorum, reiciendis culpa dolor dignissimos sed voluptate itaque incidunt, error ab, dolores eveniet dicta nisi excepturi possimus eius? Adipisci quam eveniet praesentium sunt dolorum eius suscipit facere molestias magnam exercitationem, quo iure voluptas. Quas error nesciunt modi mollitia sint aut animi quis ipsum minima tempore. Quasi minus cumque numquam quo distinctio nostrum vel a nesciunt repellendus dignissimos error eius blanditiis, temporibus maxime earum atque perferendis! Cum rerum provident fugiat nihil minus accusamus, consequatur at consequuntur eum quod iure nisi veritatis doloribus magni officia ducimus numquam. Animi quisquam iusto optio obcaecati fuga molestiae inventore sit cupiditate incidunt quam, quaerat consectetur, architecto aliquid tempora a modi quas saepe eaque, provident et. Adipisci aperiam illo blanditiis fuga quia optio, id facere animi placeat, beatae praesentium soluta quam laudantium doloremque iste fugiat exercitationem voluptates quae. Quibusdam libero, voluptate odio quisquam, ullam fuga recusandae suscipit, dolorem in neque temporibus pariatur reiciendis enim tempore possimus ratione excepturi voluptates architecto quam maiores dolores quos itaque ipsam. Dolore aperiam dolores nemo. Odit earum dolorum, eligendi id odio quibusdam quas adipisci hic possimus dignissimos reprehenderit pariatur tempore ullam perferendis. Nobis ducimus, dolores omnis perferendis sit aut.</p>
+          <h1 className='text-3xl h-10 flex  justify-center mb-10'>With The Name Of Allah, The Most Gracious And The Most Merciful</h1>
+          <hr />
+         <p className='text-center h-10 mt-10 '>{str}</p> 
       </div>
       <div className="sidemenu flex flex-col  text-2xl  w-3/12 h-5/6 p-5 ">
       <img  className= "w-full h-[65%]" src="https://c8.alamy.com/comp/2FYTYNN/the-name-of-surah-of-the-holy-quran-surah-al-fatihah-translation-chapter-the-opener-arabic-calligraphy-greeting-card-2FYTYNN.jpg" alt="Sunset in the mountains"/>
