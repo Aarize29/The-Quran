@@ -7,13 +7,14 @@ let img= '../assets/img.png'
 const Page = () => {
     const [searchTerm, setSearchTerm] = useState('')
     const id= useParams()
+    console.log(id)
      const details= data.data.surahs.filter((item)=> item.number == id.id)
      const youtube= details.map((item)=> item.youtube)
     const ayahs= details.map((item)=> item.ayahs)
     const number= ayahs.map((item)=> item.map((item)=> item.number))
 
     const str= ayahs.map((item)=> item.map((item)=> item.text)).join(' ')
-    console.log(str)
+
 
 
     
@@ -34,7 +35,9 @@ const Page = () => {
       }).map((item,key) => {
         return (
           <Link to = {`/page/${item.number}`} key={item.number}>
-          <div className="li flex  justify-start items-center h-10 mt-10   text-2xl hover:text-yellow-500 font-bold" key={key}>
+          <div className={`li flex  justify-start items-center h-10 mt-10 ${
+            item.number == id.id && `bg-yellow-500`
+            } text-2xl hover:text-grey font-bold`} key={key}>
             <div className="text-2xl p-3">{item.number}</div>
             <div className="text-2xl p-3 ">{item.englishName}</div>
           </div>
