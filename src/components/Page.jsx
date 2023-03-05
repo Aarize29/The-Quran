@@ -27,8 +27,9 @@ const Page = () => {
       {data.data.surahs.map((item) => {
         return (
           <Link to = {`/page/${item.number}`} key={item.number}>
-          <div className="li flex justify-center items-center h-10 mt-10   text-2xl hover:text-yellow-500 font-bold">
-            <div className="text-2xl p-3 m-1">{item.englishName}</div>
+          <div className="li flex  justify-start items-center h-10 mt-10   text-2xl hover:text-yellow-500 font-bold">
+            <div className="text-2xl p-3">{item.number}</div>
+            <div className="text-2xl p-3 ">{item.englishName}</div>
           </div>
           </Link>
         )
@@ -38,7 +39,7 @@ const Page = () => {
       </div>
 
       <div className="sidemenu details flex flex-col text-2xl w-full ">
-          <div className='text-6xl h-10 flex  justify-center mb-20'>{details.map((item)=> item.englishName)}</div>
+          <div className='text-6xl h-10 flex  justify-center mb-20'>{details.map((item)=> item.englishName)}- {details.map((item)=> item.englishNameTranslation)}</div>
           <h1 className='text-6xl h-10 flex  justify-center mb-20'>'بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</h1>
           <h1 className='text-3xl h-10 flex  justify-center mb-10'>With The Name Of Allah, The Most Gracious And The Most Merciful</h1>
           <hr />
