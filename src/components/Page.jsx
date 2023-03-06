@@ -2,6 +2,7 @@ import { useState } from 'react'
 import {Link, useParams } from 'react-router-dom'
 import data from '../../data.js'
 import { FaSearch } from 'react-icons/fa'
+import Navbar from './Navbar.jsx'
 import './Page.css'
 let img= '../assets/img.png'
 const Page = () => {
@@ -19,6 +20,8 @@ const Page = () => {
 
     
   return (
+    <>
+    <Navbar/>
     <div className="flex justify-between" >
       <div className="sidemenu flex flex-col  cursor-pointer text-2xl   w-3/12 overflow-y-scroll h-screen text-center   ">
       <div className="search1 li  flex w-full items-center mt-5 justify-between border-black border-4 border-solid rounded-lg">
@@ -60,6 +63,7 @@ const Page = () => {
       <iframe width="360" height="310" src={`https://www.youtube.com/embed/${youtube}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </div>
+    </>
   )
 }
 

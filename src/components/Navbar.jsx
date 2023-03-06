@@ -3,13 +3,16 @@ import {FiSun} from 'react-icons/fi'
 import {BsGithub} from 'react-icons/bs'
 import {RxDividerVertical} from 'react-icons/rx'
 import {BsMoonStarsFill} from 'react-icons/bs'
-import {FaSearch} from 'react-icons/fa'
+import {GiHamburgerMenu} from 'react-icons/gi'
 import {Link} from 'react-router-dom'
 import './Navbar.css'
 const Navbar = () => {
   const [darkMode, setDarkMode] = useState(true)
   const [theme,setTheme]=useState('light-theme')
-  const [search,setSearch]=useState('')
+  const [isNavOpen,setIsNavOpen]=useState(false)
+  const handleNav = () => {
+    setIsNavOpen(!isNavOpen)
+  }
   const handledarkmode = () => {  
         setDarkMode(!darkMode)
         if (darkMode) {
@@ -38,7 +41,7 @@ const Navbar = () => {
         <ul className="flex items-center">
             <li className=' flex justify-between'>
             <li className="li text-3xl font-bold mr-6   ">
-                <Link to="/">Home</Link>
+                <Link to="/home">Home</Link>
             </li>
             <li className="li text-3xl font-bold mr-6   ">
                 <Link to="/about">About</Link>
@@ -52,7 +55,11 @@ const Navbar = () => {
             <li className="li text-3xl font-bold mr-6   ">
               <a href="https://github.com/Aarize29/The-Quran"><BsGithub/></a>
             </li>
+            <li className="li text-3xl font-bold mr-6 " onClick={handleNav}>
+              <GiHamburgerMenu/>
             </li>
+            </li>
+
         </ul>
 
       </div>
