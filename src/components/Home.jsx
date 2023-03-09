@@ -17,13 +17,15 @@ const Home = () => {
 
   return (
     <div>
-      <Navbar/>
+  
       <section className='cards-section '>
+      <div className='lg:text-4xl sm:text-2xl md:text-3xl font-bold text-center mt-4'>Surahs</div>
+      <hr />
      <section  >
          
-<div className="flex flex-wrap m-10 mr-5 justify-center">
+<div className="flex flex-wrap text-sm lg:text-md m-10 mr-5 justify-center">
 
-  {data.slice(page*8-8,page*8).map((item) => {
+  {data.map((item) => {
     return (
       <Link to = {`/page/${item.number}`} key={item.number}>
         <Card 
@@ -41,10 +43,10 @@ const Home = () => {
   )}
 
 </div>
-
+{/* 
 {
         data.length>0 &&(
-          <div className='pagination'>
+          <div className='pagination w-'>
             
             <span onClick={()=>selectPageHandler(page-1)}
              className={page>1?'':'hidden'}
@@ -63,7 +65,7 @@ const Home = () => {
             >▶</span>
           </div>
         )
-}
+} */}
   
 </section>
 

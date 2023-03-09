@@ -2,18 +2,24 @@
     --bg: #2a4365;
     --textcolor: #fff;
     --hovertextcolor: #dbd8d8;
-    --body:#7a8aa0;
+    --body:#6c7e97;
+    --sidemenu:#4b5c74; 
+    --page:#6c7e97;
 }
 .light-theme{
     --hovertextcolor: #31373a;
     --bg: #fff;
     --textcolor: #0c4a6e;
-    --body:#fff;
+    --body:#faf9f3;
+    --sidemenu:rgb(231, 231, 231);
+    --page:#fff;
 }
 body{
     background-color: var(--body);
 }
-
+.cards-section{
+    color: var(--textcolor);
+}
 .cards-section::-webkit-scrollbar {
     display: none;
 }
@@ -32,3 +38,16 @@ body{
     font-size: larger;
     margin: 0 5px;
   }
+
+  @media screen and (max-width: 768px) {
+    .pagination{
+        overflow-x: scroll;
+    }
+  }
+    
+    @media screen and (max-width: 480px) {
+        .pagination{
+            overflow-x: scroll;
+        }
+        
+    }

@@ -9,5 +9,10 @@
     overflow-y: scroll;
     height: 100vh;
 
-
+}
+.sidebar{
+    background-color: var(--sidemenu);
+}
+.page{
+    background-color: var(--page);
 }
