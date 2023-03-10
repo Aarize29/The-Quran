@@ -5,6 +5,7 @@
     --body:#6c7e97;
     --sidemenu:#4b5c74; 
     --page:#6c7e97;
+    --video-btn:#2a4365
 }
 .light-theme{
     --hovertextcolor: #31373a;
@@ -13,6 +14,7 @@
     --body:#faf9f3;
     --sidemenu:rgb(231, 231, 231);
     --page:#fff;
+    --video-btn:#6c7e97;
 }
 body{
     background-color: var(--body);

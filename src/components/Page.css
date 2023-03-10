@@ -16,3 +16,6 @@
 .page{
     background-color: var(--page);
 }
+.video-btn{
+    background-color: var(--video-btn);
+}
