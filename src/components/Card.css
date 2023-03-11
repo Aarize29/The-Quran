@@ -1,4 +1,4 @@
 .card{
-    background-color: var(--bg);
+    background-color: var(--card);
     color: var(--textcolor);
 }

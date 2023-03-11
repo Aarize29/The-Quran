@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       
-      <div className="about flex m-5 p-6 text-left  flex-col items-center justify-center text-sm lg:text-2xl md:text-1xl font-bold mt-5 items-center">
+      <div className="about flex m-3 p-3 pr-4 lg:m-5 lg:p-6 text-left flex-col flex-start text-sm lg:text-2xl md:text-1xl font-bold mt-5 items-center">
         <p className='mb-2'> Assalamu Alaikum Rahmatullahi Barakatuh, everyone!</p>
 
         <p className='mb-2'>My name is Shams Aarize Siddique, and I am the creator of this web application. Thank you for visiting our website, which focuses on providing English translations of the Quran.</p>

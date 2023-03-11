@@ -35,6 +35,7 @@ const Home = () => {
       englishNameTranslation={item.englishNameTranslation}
       numberOfAyahs={item.numberOfAyahs}
       revelationType={item.revelationType}
+      image={item.img}
       />
       </Link>     
 

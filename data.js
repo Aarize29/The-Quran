@@ -1,9 +1,11 @@
+
 const datas ={
     "code": 200,
     "status": "OK",
     "data": {
     "surahs": [
     {
+    'img':'../../assets/surah-1.png',
     "youtube":"sjS8vkvycmw",
     "number": 1,
     "name": "سُورَةُ ٱلْفَاتِحَةِ",
@@ -91,6 +93,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-2.png',
     "youtube":"Hvo4NeUxLdc",
     "number": 2,
     "name": "سُورَةُ البَقَرَةِ",
@@ -3247,6 +3250,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-3.png',
     "youtube":"JAdx6tR1WnQ",
     "number": 3,
     "name": "سُورَةُ آلِ عِمۡرَانَ",
@@ -5457,6 +5461,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-4.png',
     "youtube":"QER4JTHn-0E",    
     "number": 4,
     "name": "سُورَةُ النِّسَاءِ",
@@ -7403,6 +7408,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-5.png',
     "youtube":"lH-siAW6qgI",
     "number": 5,
     "name": "سُورَةُ المَائـِدَةِ",
@@ -8733,6 +8739,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-6.png',
     "youtube":"Hqt9lIFndko",
     "number": 6,
     "name": "سُورَةُ الأَنۡعَامِ",
@@ -10558,6 +10565,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-7.png',
     "youtube":"3Wmf9YH3jE0",
     "number": 7,
     "name": "سُورَةُ الأَعۡرَافِ",
@@ -12838,6 +12846,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-8.png',
     "youtube":"NuhowPIwQnY",
     "number": 8,
     "name": "سُورَةُ الأَنفَالِ",
@@ -13673,6 +13682,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-9.png',
     "youtube":"WEkenhA5mPU",
     "number": 9,
     "name": "سُورَةُ التَّوۡبَةِ",
@@ -15102,6 +15112,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-10.png',
     "youtube":"Lu-n16Dvn_U",
     "number": 10,
     "name": "سُورَةُ يُونُسَ",
@@ -16311,6 +16322,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-11.png',
     "youtube":"35TzhLl_bxA",
     "number": 11,
     "name": "سُورَةُ هُودٍ",
@@ -17674,6 +17686,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-12.png',
         "youtube":"2gYbC7V99bE",
     "number": 12,
     "name": "سُورَةُ يُوسُفَ",
@@ -18905,6 +18918,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-13.png',
         "youtube":"zaCtU6ICQwM",
     "number": 13,
     "name": "سُورَةُ الرَّعۡدِ",
@@ -19392,6 +19406,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-14.png',
         "youtube":"r1rttkN95fM",
     "number": 14,
     "name": "سُورَةُ إِبۡرَاهِيمَ",
@@ -19974,6 +19989,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-15.png',
         "youtube":"5hfZfYtNyyc",
     "number": 15,
     "name": "سُورَةُ الحِجۡرِ",
@@ -21073,6 +21089,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-16.png',
         "youtube":"E2QfGcVJgVc",
     "number": 16,
     "name": "سُورَةُ النَّحۡلِ",
@@ -22495,6 +22512,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-17.png',
         "youtube":"AnnupMVYFW4",
     "number": 17,
     "name": "سُورَةُ الإِسۡرَاءِ",
@@ -23730,6 +23748,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-18.png',
         "youtube":"OSAIZ5mRA9k",
     "number": 18,
     "name": "سُورَةُ الكَهۡفِ",
@@ -24950,6 +24969,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-19.png',
         "youtube":"tbOo7KvAV-g",
     "number": 19,
     "name": "سُورَةُ مَرۡيَمَ",
@@ -26042,6 +26062,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-20.png',
         "youtube":"lgxhTUXS-cE",
     "number": 20,
     "name": "سُورَةُ طه",
@@ -27537,6 +27558,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-21.png',
         "youtube":"0VbXvzUB4aI",
     "number": 21,
     "name": "سُورَةُ الأَنبِيَاءِ",
@@ -28779,6 +28801,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-22.png',
         "youtube":"fEQ4yD2SqqE",
     "number": 22,
     "name": "سُورَةُ الحَجِّ",
@@ -29655,6 +29678,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-23.png',
         "youtube":"FlmvtkakSfg",
     "number": 23,
     "name": "سُورَةُ المُؤۡمِنُونَ",
@@ -30963,6 +30987,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-24.png',
         "youtube":"TVC8A720lgc",
     "number": 24,
     "name": "سُورَةُ النُّورِ",
@@ -31677,6 +31702,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-25.png',
         "youtube":"44bpk_QSJpo",
     "number": 25,
     "name": "سُورَةُ الفُرۡقَانِ",
@@ -32538,6 +32564,7 @@ const datas ={
     ]
     },
     {
+     'img':'../../assets/surah-26.png',
     "youtube":"LYnfRh6SlgQ",
     "number": 26,
     "name": "سُورَةُ الشُّعَرَاءِ",
@@ -35045,6 +35072,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-27.png',
     "youtube":"3Q6qY-GOzFo",
     "number": 27,
     "name": "سُورَةُ النَّمۡلِ",
@@ -36082,6 +36110,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-28.png',
     "youtube":"qgeHsDYqjpM",
     "number": 28,
     "name": "سُورَةُ القَصَصِ",
@@ -37060,6 +37089,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-29.png',
         "youtube":"AAMqxrFhP6Y",
     "number": 29,
     "name": "سُورَةُ العَنكَبُوتِ",
@@ -37829,6 +37859,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-30.png',
         "youtube":"Kb0GuzuTxys",
     "number": 30,
     "name": "سُورَةُ الرُّومِ",
@@ -38499,6 +38530,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-31.png',
         "youtube":"BXQNWTH5b6g",
     "number": 31,
     "name": "سُورَةُ لُقۡمَانَ",
@@ -38883,6 +38915,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-32.png',
         "youtube":"fyTTBm40EsI",
     "number": 32,
     "name": "سُورَةُ السَّجۡدَةِ",
@@ -39227,6 +39260,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-33.png',
         "youtube":"fO6-swedJ1Y",
     "number": 33,
     "name": "سُورَةُ الأَحۡزَابِ",
@@ -40040,6 +40074,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-34.png',
         "youtube":"oVP46R8tRnE",
     "number": 34,
     "name": "سُورَةُ سَبَإٍ",
@@ -40644,6 +40679,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-35.png',
         "youtube":"MA9vsGaH3U0",
     "number": 35,
     "name": "سُورَةُ فَاطِرٍ",
@@ -41149,6 +41185,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-36.png',
         "youtube":"tOafZpE1KvE",
     "number": 36,
     "name": "سُورَةُ يسٓ",
@@ -42072,6 +42109,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-37.png',
         "youtube":"MQbWkv8E4NQ",
     "number": 37,
     "name": "سُورَةُ الصَّافَّاتِ",
@@ -44084,6 +44122,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-38.png',
         "youtube":"583u5D3p4hA",
     "number": 38,
     "name": "سُورَةُ صٓ",
@@ -45066,6 +45105,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-39.png',
         "youtube":"aoJzNFZD_fA",
     "number": 39,
     "name": "سُورَةُ الزُّمَرِ",
@@ -45901,6 +45941,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-40.png',
         "youtube":"atfTeTESraU",
     "number": 40,
     "name": "سُورَةُ غَافِرٍ",
@@ -46846,6 +46887,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-41.png',
         "youtube":"8OKv3US9MuQ",
     "number": 41,
     "name": "سُورَةُ فُصِّلَتۡ",
@@ -47454,6 +47496,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-42.png',
         "youtube":"3m-6L-WLcE0",
     "number": 42,
     "name": "سُورَةُ الشُّورَىٰ",
@@ -48047,6 +48090,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-43.png',
         "youtube":"Y2Tx95Ub974",
     "number": 43,
     "name": "سُورَةُ الزُّخۡرُفِ",
@@ -49036,6 +49080,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-44.png',
         "youtube":"xa-XjV0kfQI",
     "number": 44,
     "name": "سُورَةُ الدُّخَانِ",
@@ -49695,6 +49740,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-45.png',
         "youtube":"D7JHBkGMCl8",
     "number": 45,
     "name": "سُورَةُ الجَاثِيَةِ",
@@ -50112,6 +50158,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-46.png',
         "youtube":"xm-n_LO-slY",
     "number": 46,
     "name": "سُورَةُ الأَحۡقَافِ",
@@ -50507,6 +50554,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-47.png',
         "youtube":"rYeTZbOTNyg",
     "number": 47,
     "name": "سُورَةُ مُحَمَّدٍ",
@@ -50935,6 +50983,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-48.png',
         "youtube":"yY-hD9nj9-k",
     "number": 48,
     "name": "سُورَةُ الفَتۡحِ",
@@ -51264,6 +51313,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-49.png',
         "youtube":"RFow2bQ51-8",
     "number": 49,
     "name": "سُورَةُ الحُجُرَاتِ",
@@ -51472,6 +51522,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-50.png',
         "youtube":"TWXxn2gJMw4",
     "number": 50,
     "name": "سُورَةُ قٓ",
@@ -51977,6 +52028,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-51.png',
         "youtube":"4gr_pUrJ8SA",
     "number": 51,
     "name": "سُورَةُ الذَّارِيَاتِ",
@@ -52647,6 +52699,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-52.png',
         "youtube":"z9yzYp3kMuo",
     "number": 52,
     "name": "سُورَةُ الطُّورِ",
@@ -53196,6 +53249,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-53.png',
         "youtube":"-BOPRK-5Tag",
     "number": 53,
     "name": "سُورَةُ النَّجۡمِ",
@@ -53892,6 +53946,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-54.png',
         "youtube":"o4snn9Kxvr8",
     "number": 54,
     "name": "سُورَةُ القَمَرِ",
@@ -54507,6 +54562,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-55.png',
         "youtube":"0OklPDe2AVQ",
     "number": 55,
     "name": "سُورَةُ الرَّحۡمَٰن",
@@ -55375,6 +55431,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-56.png',
         "youtube":"V7a8GOaE-fU",
     "number": 56,
     "name": "سُورَةُ الوَاقِعَةِ",
@@ -56441,6 +56498,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-57.png',
         "youtube":"08kKYHMf1Qw",
     "number": 57,
     "name": "سُورَةُ الحَدِيدِ",
@@ -56770,6 +56828,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-58.png',
         "youtube":"fZc5B-T55zU",
     "number": 58,
     "name": "سُورَةُ المُجَادلَةِ",
@@ -57022,6 +57081,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-59.png',
         "youtube":"Ev2F3QmAM_8",
     "number": 59,
     "name": "سُورَةُ الحَشۡرِ",
@@ -57296,6 +57356,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-60.png',
         "youtube":"Sb-eTTMZogQ",
     "number": 60,
     "name": "سُورَةُ المُمۡتَحنَةِ",
@@ -57449,6 +57510,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-61.png',
         "youtube":"jx8kWsX2Wj4",
     "number": 61,
     "name": "سُورَةُ الصَّفِّ",
@@ -57613,6 +57675,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-62.png',
         "youtube":"85OykieQ92U",
     "number": 62,
     "name": "سُورَةُ الجُمُعَةِ",
@@ -57744,6 +57807,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-63.png',
         "youtube":"omtp5navQdI",
     "number": 63,
     "name": "سُورَةُ المُنَافِقُونَ",
@@ -57875,6 +57939,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-64.png',
         "youtube":"3qfknrCiU20",
     "number": 64,
     "name": "سُورَةُ التَّغَابُنِ",
@@ -58083,6 +58148,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-65.png',
         "youtube":"pwhcl4kD9FY",
     "number": 65,
     "name": "سُورَةُ الطَّلَاقِ",
@@ -58225,6 +58291,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-66.png',
         "youtube":"LnAVrcrbk2A",
     "number": 66,
     "name": "سُورَةُ التَّحۡرِيمِ",
@@ -58367,6 +58434,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-67.png',
         "youtube":"DfOAOwGxH1c",
     "number": 67,
     "name": "سُورَةُ المُلۡكِ",
@@ -58707,6 +58775,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-68.png',
         "youtube":"TEpKHsVWkbI",
     "number": 68,
     "name": "سُورَةُ القَلَمِ",
@@ -59289,6 +59358,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-69.png',
         "youtube":"r8XvAGjbjKw",
     "number": 69,
     "name": "سُورَةُ الحَاقَّةِ",
@@ -59871,6 +59941,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-70.png',
         "youtube":"d4-fP_dekW8",
     "number": 70,
     "name": "سُورَةُ المَعَارِجِ",
@@ -60365,6 +60436,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-71.png',
         "youtube":"Ef3oDvtYMz8",
     "number": 71,
     "name": "سُورَةُ نُوحٍ",
@@ -60683,6 +60755,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-72.png',
         "youtube":"x8JaJTGd4TQ",
     "number": 72,
     "name": "سُورَةُ الجِنِّ",
@@ -61001,6 +61074,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-73.png',
         "youtube":"44jkgZ-zobY",
     "number": 73,
     "name": "سُورَةُ المُزَّمِّلِ",
@@ -61231,6 +61305,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-74.png',
         "youtube":"wmXTkzl-RmI",
     "number": 74,
     "name": "سُورَةُ المُدَّثِّرِ",
@@ -61857,6 +61932,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-75.png',
         "youtube":"RC7VYGI4tCI",
     "number": 75,
     "name": "سُورَةُ القِيَامَةِ",
@@ -62307,6 +62383,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-76.png',
         "youtube":"KZZjLT-GudI",
     "number": 76,
     "name": "سُورَةُ الإِنسَانِ",
@@ -62658,6 +62735,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-77.png',
         "youtube":"KCCKfnYSM7Q",
     "number": 77,
     "name": "سُورَةُ المُرۡسَلَاتِ",
@@ -63218,6 +63296,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-78.png',
         "youtube":"WqrHnDz8MOY",
     "number": 78,
     "name": "سُورَةُ النَّبَإِ",
@@ -63668,6 +63747,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-79.png',
         "youtube":"0O25KB1lXLA",
     "number": 79,
     "name": "سُورَةُ النَّازِعَاتِ",
@@ -64184,6 +64264,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-80.png',
         "youtube":"KBYGHr4IsQY",
     "number": 80,
     "name": "سُورَةُ عَبَسَ",
@@ -64656,6 +64737,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-81.png',
         "youtube":"XNn_elVu4pI",
     "number": 81,
     "name": "سُورَةُ التَّكۡوِيرِ",
@@ -64985,6 +65067,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-82.png',
         "youtube":"at5VTAwB5XI",
     "number": 82,
     "name": "سُورَةُ الانفِطَارِ",
@@ -65204,6 +65287,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-83.png',
         "youtube":"OWbbAoRsj_k",
     "number": 83,
     "name": "سُورَةُ المُطَفِّفِينَ",
@@ -65610,6 +65694,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-84.png',
         "youtube":"sCM166IoT3I",
     "number": 84,
     "name": "سُورَةُ الانشِقَاقِ",
@@ -65899,6 +65984,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-85.png',
         "youtube":"RPgYKfyzhKI",
     "number": 85,
     "name": "سُورَةُ البُرُوجِ",
@@ -66151,6 +66237,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-86.png',
         "youtube":"kqlODaDH4Zc",
     "number": 86,
     "name": "سُورَةُ الطَّارِقِ",
@@ -66348,6 +66435,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-87.png',
         "youtube":"mHg6kB2mAww",
     "number": 87,
     "name": "سُورَةُ الأَعۡلَىٰ",
@@ -66567,6 +66655,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-88.png',
         "youtube":"QU5tIoKjscg",
     "number": 88,
     "name": "سُورَةُ الغَاشِيَةِ",
@@ -66863,6 +66952,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-89.png',
         "youtube":"sf7-1vXMxD4",
     "number": 89,
     "name": "سُورَةُ الفَجۡرِ",
@@ -67203,6 +67293,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-90.png',
         "youtube":"-GtTajxae8g",
     "number": 90,
     "name": "سُورَةُ البَلَدِ",
@@ -67433,6 +67524,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-91.png',
         "youtube":"PfG3uMOUtLo",
     "number": 91,
     "name": "سُورَةُ الشَّمۡسِ",
@@ -67608,6 +67700,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-92.png',
         "youtube":"iOS16WRLu4M",
     "number": 92,
     "name": "سُورَةُ اللَّيۡلِ",
@@ -67849,6 +67942,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-93.png',
         "youtube":"AM_VULpFcNo",
     "number": 93,
     "name": "سُورَةُ الضُّحَىٰ",
@@ -67980,6 +68074,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-94.png',
         "youtube":"zpPaOREAkqw",
     "number": 94,
     "name": "سُورَةُ الشَّرۡحِ",
@@ -68078,6 +68173,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-95.png',
         "youtube":"1eji_5tZb-c",
     "number": 95,
     "name": "سُورَةُ التِّينِ",
@@ -68176,6 +68272,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-96.png',
         "youtube":"rqK41yKCKiM",
     "number": 96,
     "name": "سُورَةُ العَلَقِ",
@@ -68399,6 +68496,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-97.png',
         "youtube":"2J8TN346ff8",
     "number": 97,
     "name": "سُورَةُ القَدۡرِ",
@@ -68464,6 +68562,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-98.png',
         "youtube":"vb9ChJaf7cM",
     "number": 98,
     "name": "سُورَةُ البَيِّنَةِ",
@@ -68562,6 +68661,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-99.png',
         "youtube":"XCUIVzfW49c",
     "number": 99,
     "name": "سُورَةُ الزَّلۡزَلَةِ",
@@ -68660,6 +68760,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-100.png',
         "youtube":"jUf3hhYPpPI",
     "number": 100,
     "name": "سُورَةُ العَادِيَاتِ",
@@ -68791,6 +68892,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-101.png',
         "youtube":"OkHl5-fFE00",
     "number": 101,
     "name": "سُورَةُ القَارِعَةِ",
@@ -68922,6 +69024,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-102.png',
         "youtube":"N-CvkMS5YyU",
     "number": 102,
     "name": "سُورَةُ التَّكَاثُرِ",
@@ -69020,6 +69123,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-103.png',
         "youtube":"x_XZl1MYAoI",
     "number": 103,
     "name": "سُورَةُ العَصۡرِ",
@@ -69063,6 +69167,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-104.png',
         "youtube":"JB7zfhJ-TLU",
     "number": 104,
     "name": "سُورَةُ الهُمَزَةِ",
@@ -69172,6 +69277,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-105.png',
         "youtube":"U6mvs4ifVzY",
     "number": 105,
     "name": "سُورَةُ الفِيلِ",
@@ -69237,6 +69343,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-106.png',
         "youtube":"6nHtvH0GXKw",
     "number": 106,
     "name": "سُورَةُ قُرَيۡشٍ",
@@ -69291,6 +69398,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-107.png',
         "youtube":"Ot-1RsOwOgU",
     "number": 107,
     "name": "سُورَةُ المَاعُونِ",
@@ -69378,6 +69486,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-108.png',
         "youtube":"bkr3QoewGKw",
     "number": 108,
     "name": "سُورَةُ الكَوۡثَرِ",
@@ -69421,6 +69530,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-109.png',
         "youtube":"b9YEdjef2oA",
     "number": 109,
     "name": "سُورَةُ الكَافِرُونَ",
@@ -69497,6 +69607,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-110.png',
         "youtube":"pFuWbddyiuo",
     "number": 110,
     "name": "سُورَةُ النَّصۡرِ",
@@ -69540,6 +69651,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-111.png',
         "youtube":"v1FoyCFzzC8",
     "number": 111,
     "name": "سُورَةُ المَسَدِ",
@@ -69605,6 +69717,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-112.png',
         "youtube":"Z2D0iJOnNGQ",
     "number": 112,
     "name": "سُورَةُ الإِخۡلَاصِ",
@@ -69659,6 +69772,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-113.png',
         "youtube":"ZWJ7pJ8rMeY",
     "number": 113,
     "name": "سُورَةُ الفَلَقِ",
@@ -69724,6 +69838,7 @@ const datas ={
     ]
     },
     {
+        'img':'../../assets/surah-114.png',
         "youtube":"0hil1RMqWOY",
     "number": 114,
     "name": "سُورَةُ النَّاسِ",
