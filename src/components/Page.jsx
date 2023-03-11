@@ -7,7 +7,7 @@ import {GiHamburgerMenu} from 'react-icons/gi'
 import {AiOutlineClose} from 'react-icons/ai'
 import './Page.css'
 import './Popup.css'
-import Popup from './popup'
+import Popup from './Popup.jsx'
 
 
 
