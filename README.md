@@ -8,7 +8,6 @@ Our web application offers a user-friendly interface that allows you to search f
 
 Our goal is to make the Quran accessible to everyone, regardless of their language or background. We believe that the message of the Quran is for all of humanity, and we are committed to promoting a greater understanding and appreciation of its teachings.
 
-Thank you for visiting our website, and we hope that our web application will be a valuable resource for you in your journey towards greater spiritual enlightenment.
 
 # Deployed_Link:-
  https://the-quran-two.vercel.app/
