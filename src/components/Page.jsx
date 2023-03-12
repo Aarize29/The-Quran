@@ -115,7 +115,7 @@ const Page = () => {
       </div>
       <div className="sidemenu page details  flex flex-col text-2xl lg:w-full ">
       <div className="flex lg:hidden justify-center">
-         <button onClick={view} className='video-btn hover:bg-blue-700 text-white font-bold py-1 px-2 rounded-full text-sm mt-2' >Listen in Arabic</button>
+         <button onClick={view} className='video-btn hover:bg-blue-700 text-white font-bold py-1 px-2 rounded-full text-sm mt-2' >🔊Listen in Arabic</button>
       </div>
           <div className='text-xl font-bold lg:font-normal lg:text-5xl  flex  mt-5  justify-center mb-5 lg:mb-10'>{details.map((item)=> item.englishName)}- {details.map((item)=> item.englishNameTranslation)}</div>
           <h1 className='text-xl font-bold lg:font-normal lg:text-5xl h-10 flex  justify-center lg:mb-10'>'بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</h1>
