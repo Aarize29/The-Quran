@@ -29,7 +29,7 @@ const Navbar = () => {
   , [theme])
 
 
-  return (
+  return (  
     <div className="navbar flex justify-between w-full pr-10 lg:pl-12 pt-10 border-b-2 border-sky-900 border-solid items-center shadow-xl text-1xl lg:text-3xl md:text-2xl shadow-black-900 items-center">
       <div className="icon ">
         <Link to='/'><h1 className="  font-bold  mr-2   ">
@@ -44,7 +44,7 @@ const Navbar = () => {
             <li className="li  font-bold mr-6  ">
                 <Link to="/home">Home</Link>
             </li>
-            <li className="li  font-bold mr-6   ">
+            <li className="li  font-bold mr-6 ">
                 <Link to="/about">About</Link>
             </li>
             </li>
