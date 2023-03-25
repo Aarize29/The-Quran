@@ -86,8 +86,8 @@ const Page = () => {
       <button className="  font-bold  " onClick={handleNav}>
              {isNavOpen?<AiOutlineClose/>:""}
       </button>
-      <div className="search1 li  flex w-full items-center mt-2 justify-between border-black border-4 border-solid rounded-lg">
-        <input type="text" placeholder="Search" className="text-black outline-none w-full p-1 m-1 " onChange={event=>{setSearchTerm(event.target.value)}}/>
+      <div className="search1 li  flex  items-center mt-2 justify-between border-black border-4 border-solid rounded-lg">
+        <input type="text" placeholder="Search" className="text-black outline-none p-1 m-1 " onChange={event=>{setSearchTerm(event.target.value)}}/>
         <FaSearch className="text-sm  cursor-pointer  rounded-lg ml-1"/>
       </div>
         
