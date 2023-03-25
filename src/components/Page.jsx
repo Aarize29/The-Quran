@@ -50,7 +50,7 @@ const Page = () => {
       
       <div className={`sidemenu sidebar hidden lg:flex flex-col  cursor-pointer text-xl   lg:w-3/12 overflow-y-scroll h-screen text-center`}>
       
-      <div className="search1 li  flex w-full items-center mt-5 justify-between border-black border-4 border-solid rounded-lg">
+      <div className="search1 li flex items-center mt-5 justify-between border-black border-4 border-solid rounded-lg">
         <input type="text" placeholder="Search" className="text-black outline-none w-full p-3 m-1 " onChange={event=>{setSearchTerm(event.target.value)}}/>
         <FaSearch className="text-2xl  cursor-pointer  rounded-lg ml-2"/>
       </div>
@@ -126,11 +126,11 @@ const Page = () => {
       </div>
       <div className="sidemenu hidden lg:flex flex-col   text-2xl  w-3/12 h-5/6 p-5 ">
       <img  className= "w-[full] h-[35%] mb-10" src={image} alt="Sunset in the mountains"/>
-      <iframe width="300" height="270" src={`https://www.youtube.com/embed/${youtube}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="300" height="270" src={`https://www.youtube.com/embed/${youtube}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullscreen></iframe>
       </div>
       <Popup trigger={buttonPopup} setTrigger={setButtonPopup} >
       <div className="h-fit grid rounded-xl items-center border-solid border-grey border-[2px] ">
-      <iframe width="200" height="150" src={`https://www.youtube.com/embed/${youtube}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="200" height="150" src={`https://www.youtube.com/embed/${youtube}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       </Popup>
     </div>
