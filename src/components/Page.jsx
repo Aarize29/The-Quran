@@ -113,7 +113,7 @@ const Page = () => {
 
       </div>:<div onClick={handleNav}><GiHamburgerMenu/></div>}
       </div>
-      <div className="sidemenu page details  flex flex-col text-2xl lg:w-full ">
+      <div className="sidemenu page details  flex flex-col text-2xl lg:w-full cursor-pointer ">
       <div className="flex lg:hidden justify-center">
          <button onClick={view} className='video-btn hover:bg-blue-700 text-white font-bold py-1 px-2 rounded-full text-sm mt-2' >🔊Listen in Arabic</button>
       </div>
